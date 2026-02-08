@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = 'https://cosmic-watch-backend-4bsv.onrender.com/api';
 
 const getAsteroids = async () => {
     const response = await axios.get(`${API_BASE}/data`);
